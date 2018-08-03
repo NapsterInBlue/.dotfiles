@@ -14,3 +14,7 @@ dgit reset --hard
 ## Updating
 
 Same workflow, but with `dgit` instead of `git`. Adding new files will require an `-f` tag to any `git add` commands.
+
+## Getting `make` on Windows
+
+https://gist.github.com/evanwill/0207876c3243bbb6863e65ec5dc3f058#make
