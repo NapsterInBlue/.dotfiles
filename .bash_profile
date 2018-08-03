@@ -2,19 +2,24 @@
 test -f ~/.profile && . ~/.profile
 test -f ~/.bashrc && . ~/.bashrc
 
+# Disable/Enable cert checks
 alias ssloff="git config --global http.sslVerify false"
 alias sslon="git config --global http.sslVerify true"
 
+# File navigation
 alias 2.="cd ../../"
 alias 3.="cd ../../../"
 alias 4.="cd ../../../../"
 alias 5.="cd ../../../../../"
 
+# Find Stuff
 alias ffiles="find . -type f | grep -v '.git/'"
 alias dirgrep="ffiles | xargs grep "
 
+# Better ls
 alias lah="ls -lah"
-
 alias tree="cmd //c tree"
 
-alias dotfiles='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+alias dgit="git --git-dir ~/.dotfiles/.git --work-tree=$HOME"
+
+alias aliases="cat ~/.bash_profile"
