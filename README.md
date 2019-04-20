@@ -7,7 +7,7 @@ Built by following along with [these docs](https://www.electricmonk.nl/log/2015/
 
 ```
 git clone git@github.com:NapsterInBlue/.dotfiles.git
-alias dgit=git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
 dgit reset --hard
 ```
 
