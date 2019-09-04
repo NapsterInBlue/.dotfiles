@@ -23,3 +23,7 @@ alias tree="cmd //c tree"
 alias dgit="git --git-dir ~/.dotfiles/.git --work-tree=$HOME"
 
 alias aliases="cat ~/.bash_profile"
+
+# Git utilities
+alias gs="git status"
+
