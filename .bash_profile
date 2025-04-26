@@ -26,4 +26,22 @@ alias aliases="cat ~/.bash_profile"
 
 # Git utilities
 alias gs="git status"
+alias gd="git diff"
 
+function gl {
+  local commits="${1:-2}"
+  cmd="git log -n $commits"
+
+  eval $cmd
+}
+
+alias gca="git commit --amend"
+alias gcm="git commit -m "
+
+alias gb="git checkout -b "
+
+
+# Sourcing
+alias sublime="sublime_text"
+
+source ~/.dotfiles/.aliases
