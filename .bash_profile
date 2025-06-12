@@ -27,6 +27,7 @@ alias aliases="cat ~/.bash_profile"
 # Git utilities
 alias gs="git status"
 alias gd="git diff"
+alias gds="git diff --staged"
 
 function gl {
   local commits="${1:-2}"
